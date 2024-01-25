@@ -1,0 +1,113 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/db/34/d4/db34d40b271fb59477621550bf73ea0b.jpg");
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  backdrop-filter: none; 
+  transition: backdrop-filter 0.3s ease; 
+  
+}
+.App {
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.dark {
+  background-color: #1a1a1a;
+  color: gray;
+}
+
+.light {
+  background-color: wheat;
+  color: #000;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.QuestionBox {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: gray;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.QuestionBox.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.QuestionBox.light {
+  background-color:  rgba(128, 128, 128, 0.501);
+  color: #000;
+}
+
+.question-number {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.question-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: darkblue;
+}
+
+.options button {
+  background-color: lightblue;
+  color:black;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+  background-color: #960e29;
+}
+
+.Result {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Result.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.Result.light {
+  background-color: #fff;
+  color: wheat;
+}
+
+.Result h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(35, 35, 97);
+}
+
+.Result p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  
+}
